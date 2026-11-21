@@ -1,3 +1,38 @@
+# Dependencies
 node_modules/
+
+# Build output
 dist/
+build/
+
+# Vite
+.vite/
+
+# Environment variables
 .env
+.env.*
+!.env.example
+
+# Testing
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Package manager files
+# Keep package-lock.json, yarn.lock, and pnpm-lock.yaml tracked.
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
