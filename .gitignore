@@ -1,0 +1,79 @@
+
+# ==============================
+# Python / FastAPI Backend
+# ==============================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Node.js / React Frontend
+# ==============================
+
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+
+# ==============================
+# Environment Variables
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# IDE / Editor
+# ==============================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Operating System
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+# ==============================
+# Database / Backup Files
+# ==============================
+
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+
+# ==============================
+# Temporary Files
+# ==============================
+
+*.tmp
+*.temp
+.cache/
