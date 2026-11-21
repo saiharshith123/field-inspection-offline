@@ -342,57 +342,55 @@ You can execute and test the available API endpoints directly from the browser.
 
 This section displays the actual application interface and its important functionalities.
 
-**📸 Add your project screenshots inside a folder named `screenshots` in the root directory.**
-
 ### 8.1 Main Dashboard – Online Mode
 
 Displays the inspection dashboard with connection status, saved inspection count, pending synchronization count, and recent inspection records.
 
-![Field Inspection Dashboard - Online Mode](screenshots/dashboard-online.png)
+<img width="1119" height="930" alt="Screenshot 2026-11-21 105816" src="https://github.com/user-attachments/assets/c2ef1d5b-8c61-4fa3-bcb7-25bf0f9e7498" />
 
 ### 8.2 New Inspection – Create Record
 
 Allows field staff to enter the site name, inspector details, inspection status, and observations.
 
-![Create New Inspection](screenshots/create-inspection.png)
+<img width="949" height="924" alt="Screenshot 2026-11-21 104451" src="https://github.com/user-attachments/assets/85e4dc1d-916a-45cd-bfaf-75dfdb97fff4" />
 
 ### 8.3 Offline Mode – Connection Status
 
 When network connectivity is unavailable, the application clearly displays offline status while allowing users to continue recording inspection information.
 
-![Offline Mode](screenshots/offline-mode.png)
+<img width="834" height="919" alt="image" src="https://github.com/user-attachments/assets/49eaf7d2-f56c-4239-90cb-7729f3ef4e8e" />
 
 ### 8.4 Local Storage – IndexedDB
 
 Inspection records and pending synchronization operations are stored in the browser's IndexedDB database.
 
-![IndexedDB Local Storage](screenshots/indexeddb-storage.png)
+<img width="549" height="667" alt="image" src="https://github.com/user-attachments/assets/5abd5a6c-7955-4e76-b7bc-764083fe77c3" />
 
 ### 8.5 Synchronization Queue
 
 Displays inspection changes waiting to be synchronized with the backend.
 
-![Pending Synchronization Queue](screenshots/sync-queue.png)
+<img width="1119" height="930" alt="Screenshot 2026-11-21 105816" src="https://github.com/user-attachments/assets/9518ef3c-0bd0-416b-a03a-6ca36b0dc74b" />
 
 ### 8.6 Successful Synchronization
 
 When connectivity returns, the application attempts to synchronize pending changes and updates the synchronization status.
 
-![Successful Synchronization](screenshots/sync-success.png)
+<img width="848" height="925" alt="image" src="https://github.com/user-attachments/assets/f6de1635-a34e-42c5-8681-72f9f019fe6b" />
 
 ### 8.7 PostgreSQL Database Output
 
 Displays the inspection records successfully stored in PostgreSQL after synchronization.
 
-![PostgreSQL Inspection Records](screenshots/postgresql-records.png)
+<img width="1548" height="833" alt="image" src="https://github.com/user-attachments/assets/845498bd-485e-4aad-ad66-7ef24dc11520" />
 
 ### 8.8 FastAPI Swagger UI
 
 Displays the backend API documentation and available REST endpoints.
 
-![FastAPI Swagger Documentation](screenshots/swagger-ui.png)
+<img width="1177" height="1002" alt="image" src="https://github.com/user-attachments/assets/81b97c5e-b49e-444f-9db6-929d915d922f" />
 
-> **Note:** Replace the screenshot paths above with your actual screenshots. The images will appear on GitHub after you upload them into the `screenshots` directory.
+<img width="1100" height="999" alt="Screenshot 2026-11-21 110508" src="https://github.com/user-attachments/assets/6b7ff9aa-04f7-4162-a6a7-2a8b914a1137" />
 
 ---
 
